@@ -29,7 +29,7 @@ async function callChatGPT(ask) {
             "An error occurred while calling the ChatGPT API:",
             error
         );
-        return Null;
+        return null;
     }
 }
 
