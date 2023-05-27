@@ -32,3 +32,6 @@ Thumbs.db
 
 # AWS EB
 .elasticbeanstalk/
+
+# conversation file
+conversation.json
