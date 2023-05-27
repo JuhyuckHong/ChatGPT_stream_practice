@@ -1,5 +1,7 @@
 const { Configuration, OpenAIApi } = require("openai");
+const fs = require("fs");
 require("dotenv").config();
+
 async function callChatGPT(ask) {
     const configuration = new Configuration({
         apiKey: process.env.OPENAI_API_KEY,
